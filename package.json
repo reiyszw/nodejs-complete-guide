@@ -1,0 +1,43 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reiyszw/nodejs-complete-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reiyszw/nodejs-complete-guide/issues"
+  },
+  "homepage": "https://github.com/reiyszw/nodejs-complete-guide#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.3.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "csurf": "^1.11.0",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-handlebars": "3.0",
+    "express-session": "^1.19.0",
+    "express-validator": "^7.3.2",
+    "mongodb": "^7.5.0",
+    "mongoose": "^9.8.1",
+    "mysql2": "^3.23.1",
+    "nodemailer": "^9.0.4",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pug": "^3.0.4",
+    "sequelize": "^6.37.8"
+  }
+}

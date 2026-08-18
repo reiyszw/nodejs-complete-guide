@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# プロジェクト固有のデータ
+# 今回作成した message.txt は「データ」なので含めないのが一般的です
+message.txt
+
+.env
